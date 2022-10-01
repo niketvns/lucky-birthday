@@ -18,8 +18,20 @@ header {
     min-height: 85vh;
 }
 
+.notice big {
+    color: green;
+    font-weight: 600;
+}
+
+.notice {
+    text-align: center;
+    color: green;
+    margin: 20px 30px;
+    font-style: italic;
+}
+
 h1.main {
-    margin: 20px auto 10px auto;
+    margin: 10px;
     color: var(--primary-color);
     text-align: center;
 }
@@ -62,6 +74,9 @@ button:active {
 
 #outPut {
     color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 0px 30px;
+
 }
 
 
